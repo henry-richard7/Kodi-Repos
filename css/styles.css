@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding-top: 110px;
+  position: relative;
+}
+
+section.home-sec {
+  padding-top: 70px;
+  height: 55vh;
+  min-height: 65vh;
+}
+
+@media only screen and (max-width: 600px) {
+  section.home-sec {
+    min-height: 40vh;
+  }
+}
+
+section.home-sec .text-title {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  section.home-sec .text-title {
+    font-size: 40px;
+  }
+}
+
+section.home-sec .text-description {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  section.home-sec .text-description {
+    font-size: 15px;
+  }
+}
+
+section.home-sec .kodi-img {
+  width: 250px;
+}
+
+@media only screen and (max-width: 863px) {
+  section.home-sec .kodi-img {
+    visibility: hidden;
+  }
+}
+
+section.guide-ses .text-title {
+  font-size: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+  section.guide-ses .text-title {
+    font-size: 25px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/updater.js"></script>
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+    <title>Henry's Kodi Addons</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="https://img.icons8.com/color/550/000000/kodi--v1.png" width="30" height="30"
+                class="d-inline-block align-top" alt="">
+            Kodi Repo
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#Home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Guide">Guide</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#AddonsList">Addons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Donate">Donate</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="https://henry-richard.ml/">About Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <section id="Home" class="home-sec">
+            <div class="row">
+                <div class="col text-white">
+                    <p class="text-title"><b>Henry's</b> Repository</p>
+                    <p class="text-title">Add-ons for <u>Kodi</u></p>
+                    <p class="text-muted text-description">A 3rd-Party Repository For <b>Kodi</b>.</p>
+
+                    <a class="btn btn-primary" href="#Guide" role="button">Get Started</a>
+                </div>
+                <div class="col">
+                    <img class="kodi-img" src="https://img.icons8.com/plasticine/550/000000/kodi.png" />
+                </div>
+            </div>
+        </section>
+
+        <section id="Guide" class="guide-ses mx-auto">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="assets/install.svg">
+                </div>
+                <div class="col-sm text-white">
+                    <p class="text-title pb-3"><b>How To </b>Install Repository ?</p>
+                    <ul>
+                        <li>
+                            Go to <b>File Manager</b>
+                            From Settings.
+                        </li>
+                        <li>
+                            Click on <b>Add Sources.</b>
+                        </li>
+                        <li>
+                            Use <kbd>https://henry-richard.ml/Kodi Repos</kbd> as a path
+                            and give it a name <kbd>Kodi Repos Henry.</kbd>
+                        </li>
+                        <br />
+                        <li>
+                            Go to <b>Add-ons</b> from settings.
+                        </li>
+                        <li>
+                            Click <b>Install From Zip File</b>.
+                        </li>
+                        <li>
+                            Select <kbd>Kodi Repos Henry</kbd> >> <kbd>zips</kbd> >>
+                            <kbd>repository.henry</kbd> >> <kbd>repository.henry-x.x.x.zip</kbd>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="AddonsList" class="guide-ses mx-auto">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="https://img.icons8.com/external-ddara-flat-ddara/350/000000/external-api-fintech-ddara-flat-ddara.png"" />
+                </div>
+                <div class=" col-sm text-white">
+                    <p class="text-title pb-3"><b>List Of </b>Add-ons</p>
+                    <div class="addons-list" id="addons-lists">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Donate" class="guide-ses mx-auto pb-5">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="https://img.icons8.com/cotton/350/000000/donate--v1.png" />
+                </div>
+                <div class=" col-sm text-white">
+                    <p class="text-title pb-3"><b>Donate </b></p>
+                    <p class="text-muted pb-3"><b>If you liked this add-ons and want to support consider making a small
+                            donation. </b></p>
+                    <a class="btn btn-primary" target="_blank" href="https://www.paypal.com/paypalme/henryrics"
+                        role="button"><i class="fab fa-paypal"></i> Donate</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright :
+            <a class="text-white-50" href="https://henry-richard.ml">Henry Richard</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
