@@ -26,8 +26,8 @@
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.dramacool/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.dramacool/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
@@ -56,8 +56,8 @@
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.vootstreamer/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.vootstreamer/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
@@ -87,8 +87,8 @@
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.worldtv/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.worldtv/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
@@ -117,8 +117,8 @@
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
+            <icon>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.zee5tv/icon.png</icon>
+            <fanart>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.zee5tv/fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
