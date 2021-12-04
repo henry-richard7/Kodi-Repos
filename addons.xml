@@ -26,8 +26,8 @@
         <news></news>
         <disclaimer></disclaimer>
         <assets>
-            <icon>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.dramacool/icon.png</icon>
-            <fanart>https://raw.githubusercontent.com/henry-richard7/Kodi-Repos/main/repos/plugin.henry.dramacool/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
 </addon>
